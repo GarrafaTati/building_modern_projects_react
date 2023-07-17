@@ -11,9 +11,9 @@ export const removeTodo = (todo) => ({
 });
 
 export const IS_COMPLETED_MARK = "IS_COMPLETED_MARK";
-export const isCompletedMark = (text) => ({
+export const isCompletedMark = (todo) => ({
   type: IS_COMPLETED_MARK,
-  payload: { text },
+  payload: { todo },
 });
 
 export const LOAD_TODOS_IN_PROGRESS = "LOAD_TODOS_IN_PROGRESS";
